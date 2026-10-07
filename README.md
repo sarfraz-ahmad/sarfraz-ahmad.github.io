@@ -1,2 +1,0 @@
-# Sarfraz
-My personal website
