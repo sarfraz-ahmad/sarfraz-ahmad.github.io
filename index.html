@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sarfraz Ahmad — BS Computer Science, CGPA 3.37, and seven years of web development experience. Academic background, selected work, CV, and academic records.">
+  <meta name="theme-color" content="#f8f9f6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sarfraz Ahmad · Academic & professional portfolio">
+  <meta property="og:description" content="Computer science, web development, and an ongoing academic journey.">
+  <title>Sarfraz Ahmad · Academic & professional portfolio</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("portfolio-theme");
+      if (savedTheme === "light" || savedTheme === "dark") document.documentElement.dataset.theme = savedTheme;
+    } catch (_) { /* The site also works when browser storage is unavailable. */ }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="profile.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#about" aria-label="Sarfraz Ahmad, home">
+        <span class="brand-mark" aria-hidden="true">sa.</span>
+        <span class="brand-name" data-profile="name">Sarfraz Ahmad</span>
+      </a>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="#about" aria-current="location">About</a>
+        <a href="#background">Background</a>
+        <a href="#work">Work</a>
+        <a href="#records">CV & records</a>
+      </nav>
+      <div class="header-tools">
+        <a class="header-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch colour theme" hidden><svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg></button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="intro" id="about" aria-labelledby="intro-heading">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> ACADEMIC & PROFESSIONAL PORTFOLIO</p>
+        <h1 id="intro-heading" data-profile="name">Sarfraz Ahmad<span class="name-period">.</span></h1>
+        <p class="intro-role" data-profile="headline">Computer science.<br>Seven years of building for the web.</p>
+        <p class="intro-bio" data-profile="bio">I bring seven years of web development experience and a BS in Computer Science. Here, I share my professional background, selected work, and academic records.</p>
+        <div class="intro-actions">
+          <a class="button button-primary" href="#records"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M8 13h8M8 17h5"/></svg>CV & academic records</a>
+          <a class="text-link github-link" href="https://github.com/sarfraz-ahmad" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        </div>
+      </div>
+      <aside class="profile-note" aria-label="Profile at a glance">
+        <div class="note-top"><span>AT A GLANCE</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8l10-5ZM5 10v6c4 3 10 3 14 0v-6M22 8v8"/></svg></div>
+        <dl>
+          <div><dt>Academic background</dt><dd data-profile="degreeShort">BS Computer Science</dd></div>
+          <div><dt>CGPA</dt><dd class="note-number" data-profile="cgpa">3.37</dd></div>
+          <div><dt>Professional experience</dt><dd><span class="note-number" data-profile="experience">7 years</span><span class="note-detail">Web development</span></dd></div>
+        </dl>
+        <div class="note-bottom">Learning. Building. Moving forward.</div>
+      </aside>
+    </section>
+
+    <section class="section background-section" id="background" aria-labelledby="background-heading">
+      <div class="section-heading"><div><p class="eyebrow">01 / BACKGROUND</p><h2 id="background-heading">A foundation in computer science.</h2></div><span class="section-caption">Education & experience</span></div>
+      <div class="background-grid">
+        <article class="background-item">
+          <div class="item-kicker"><span class="small-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8l10-5ZM5 10v6c4 3 10 3 14 0v-6M22 8v8"/></svg></span> EDUCATION</div>
+          <h3 data-profile="degree">Bachelor of Science in Computer Science</h3>
+          <p class="institution" id="institution">Institution and study dates to be added.</p>
+          <p class="academic-result"><span>CGPA</span> <strong data-profile="cgpa">3.37</strong></p>
+          <a class="quiet-link" href="#records">Academic records <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="background-item">
+          <div class="item-kicker"><span class="small-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2M3 6h18v14H3zM3 11c6 4 12 4 18 0M10 12h4v3h-4z"/></svg></span> EXPERIENCE</div>
+          <h3>Web development</h3>
+          <p class="experience-length"><span data-profile="experience">7 years</span> of professional experience</p>
+          <p class="item-description">A background in building for the web, grounded in a computer science education.</p>
+          <p class="quiet-note">Detailed roles and experience will be available in my CV.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-heading">
+      <div class="section-heading"><div><p class="eyebrow">02 / SELECTED WORK</p><h2 id="work-heading">From ideas to the web.</h2></div><span class="section-caption">Projects & research</span></div>
+      <div id="project-list" class="project-list">
+        <a class="project-row github-link" href="https://github.com/sarfraz-ahmad" target="_blank" rel="noopener noreferrer">
+          <span class="project-index" aria-hidden="true">01</span>
+          <div class="project-copy"><h3>Projects & source code</h3><p>Explore my repositories and development work on GitHub.</p></div>
+          <span class="project-tag">GITHUB</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>
+        </a>
+      </div>
+      <p class="section-note" id="work-note">Individual projects and research work will be added here.</p>
+    </section>
+
+    <section class="section records-section" id="records" aria-labelledby="records-heading">
+      <div class="section-heading"><div><p class="eyebrow">03 / DOCUMENTS</p><h2 id="records-heading">CV & academic records.</h2></div><span class="section-caption">All in one place</span></div>
+      <p class="section-intro">My curriculum vitae and supporting academic documents.</p>
+      <div class="documents" id="document-list">
+        <article class="document-row"><span class="document-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M8 13h8M8 17h5"/></svg></span><div class="document-copy"><h3>Curriculum vitae</h3><p>Education, professional experience, and selected work.</p></div><span class="document-status">Not added yet</span></article>
+        <article class="document-row"><span class="document-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3h14v18H5zM8 7h8M8 11h8M8 15h3M14 15h2M8 18h3M14 18h2"/></svg></span><div class="document-copy"><h3>Academic transcript</h3><p>Coursework and academic results.</p></div><span class="document-status">Not added yet</span></article>
+        <article class="document-row"><span class="document-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3h14v14H5zM8 7h8M8 10h8M9 16v6l3-2 3 2v-6"/><circle cx="12" cy="14" r="3"/></svg></span><div class="document-copy"><h3>Certificates & credentials</h3><p>Qualifications and supporting achievements.</p></div><span class="document-status">Not added yet</span></article>
+      </div>
+      <p class="section-note">Documents will be available here once added.</p>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div><p class="eyebrow">04 / CONTACT</p><h2 id="contact-heading">Let’s connect.</h2><p>For professional enquiries and academic connections.</p></div>
+      <div class="contact-links"><a class="contact-link github-link" href="https://github.com/sarfraz-ahmad" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a id="email-link" class="contact-link" hidden><span>Email</span><span aria-hidden="true">↗</span></a><a id="linkedin-link" class="contact-link" target="_blank" rel="noopener noreferrer" hidden><span>LinkedIn</span><span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><p class="contact-note" id="contact-note">Public email to be added.</p></div>
+    </section>
+  </main>
+
+  <footer class="container footer"><p>© <span id="year">2026</span> <span data-profile="name">Sarfraz Ahmad</span></p><p>Computer science & the web.</p><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
